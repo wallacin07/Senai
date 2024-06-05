@@ -1,0 +1,9 @@
+
+ 
+Aluno: kau, Curso: TDS.
+Notas: 10, 10, 10. Media das notas: 10
+ 
+Aluno: wallace, Curso: TDS.
+Notas: 10, 9, 8. Media das notas: 9
+ 
+ 

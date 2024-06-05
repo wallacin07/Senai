@@ -1,0 +1,50 @@
+
+
+Marca do veiculo: BMW
+Ano do veiculo: 2012
+Cor do veiculo: branco
+Placa do veiculo: au12jh8
+Modelo do veiculo: 320i
+Nome do proprietario: wallace
+Sobrenome do proprietario: abreu
+Idade do proprietario: 17
+
+
+Marca do veiculo: sla
+Ano do veiculo: 6422204
+Cor do veiculo: sla
+Placa do veiculo: sla
+Modelo do veiculo: sla
+Nome do proprietario: sl
+Sobrenome do proprietario: a
+Idade do proprietario: -6420328
+
+
+Marca do veiculo: a
+Ano do veiculo: 6422204
+Cor do veiculo: a
+Placa do veiculo: a
+Modelo do veiculo: a
+Nome do proprietario: a
+Sobrenome do proprietario: a
+Idade do proprietario: -6420328
+
+
+Marca do veiculo: a
+Ano do veiculo: 2
+Cor do veiculo: a
+Placa do veiculo: a
+Modelo do veiculo: a
+Nome do proprietario: a
+Sobrenome do proprietario: a
+Idade do proprietario: 17
+
+
+Marca do veiculo: a
+Ano do veiculo: 33
+Cor do veiculo: a
+Placa do veiculo: a
+Modelo do veiculo: a
+Nome do proprietario: a
+Sobrenome do proprietario: a
+Idade do proprietario: 1469
