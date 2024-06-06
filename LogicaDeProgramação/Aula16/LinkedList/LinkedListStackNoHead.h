@@ -49,14 +49,6 @@ Veiculo *push(Veiculo *Primeiro, int conteudo){
   }  }
 
 Veiculo *pop(Veiculo *Primeiro){  
-//     Veiculo *aux;
-
-//   aux= Primeiro->next;
-//       while (aux->next != NULL) {
-//       aux = aux->next;
-//     }
-
-//   return Primeiro;
 int contador = 0;
   if (Primeiro == NULL) {
     return NULL;

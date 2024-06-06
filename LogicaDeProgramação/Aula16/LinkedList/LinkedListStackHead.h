@@ -62,13 +62,13 @@ Veiculo *pop(Veiculo *Primeiro){
         Veiculo *atual = Primeiro;
         Veiculo *anterior = NULL;
 
-        // Encontra o penúltimo nó
+
         while (atual->next != NULL) {
             anterior = atual;
             atual = atual->next;
         }
 
-        // Remove o último nó
+       
         free(atual);
         if (anterior != NULL) {
             anterior->next = NULL; 

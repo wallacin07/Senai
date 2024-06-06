@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 typedef struct LinkedListNoHead{
   int ano;
   struct LinkedListNoHead *next;
-}LinkedListNoHead;
+} LinkedListNoHead;
 
 void displayLL(LinkedListNoHead *p)
 {
@@ -29,10 +28,9 @@ void liberarLista(LinkedListNoHead *cabecalho) {
 
 LinkedListNoHead *dequeue(LinkedListNoHead *head)
 {
-  LinkedListNoHead *aux;
-  aux= head->next;
-  head = aux;
-  return head;
+  LinkedListNoHead *aux = head->next;
+  free(head);
+  return aux;
 }
 
 
@@ -52,35 +50,36 @@ LinkedListNoHead *enqueue(LinkedListNoHead *head, int conteudo)
       atual = atual->next;
     }
     atual->next = pNode;
-    return head; // Retorna a cabeça original da lista
+    return head; 
   }  
 }
 
 
-void copyArrayForLinkedList(int *array, LinkedListNoHead *List, int tamanhoArray)
+void copyArrayForLinkedList(int *array, LinkedListNoHead **List, int tamanhoArray)
 {
-  int i = 0;
-  while (i < tamanhoArray)
- {
-    enqueue(List,array[i]);
-    i++;
- }
- 
+  for (int i = 0; i < tamanhoArray; i++)
+  {
+    *List = enqueue(*List,array[i]);
+  }
 }
 
 void copyLinkedListForArray(LinkedListNoHead *List,int *array)
 {
   int i = 0;
-  while (List->next != NULL)
+  while (List != NULL)
   {
     array[i] = List->ano;
     List = List->next;
     i++;
   }
-  
 }
 
-
-
-
-
+int lenLinkedList(LinkedListNoHead *List){
+  int len = 0;
+    while(List)
+  {
+    len++;
+    List = List->next;
+  }
+  return len;
+}
