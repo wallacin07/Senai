@@ -16,9 +16,9 @@ void SelectionSort(int *array, int lenArray)
     start = clock();
     for (i = 0; i < lenArray; i++)
     {
-        for ( j = i; j < lenArray; j++)
+        for ( j = 0; j < lenArray; j++)
         {
-            if(array[i] > array[j])
+            if(array[i] < array[j])
             {
                 array[i] = array[i] ^ array[j];
                 array[j] = array[i] ^ array[j];

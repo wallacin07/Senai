@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Aluno/Desktop/Senai/LogicaDeProgramação/Aula16/LinkedList",
-      "program": "c:/Users/Aluno/Desktop/Senai/LogicaDeProgramação/Aula16/LinkedList/build/Debug/outDebug",
+      "cwd": "c:/Users/Aluno/Desktop/Senai/LogicaDeProgramação/Aula17",
+      "program": "c:/Users/Aluno/Desktop/Senai/LogicaDeProgramação/Aula17/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
