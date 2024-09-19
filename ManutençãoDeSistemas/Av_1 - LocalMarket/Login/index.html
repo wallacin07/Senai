@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Login</h1>
+      <input type="text" placeholder="Insira seu nome" id="nome" />
+      <div style="position: relative;">
+        <input type="password" placeholder="Insira sua senha" id="senha" >
+        <button type="button" class="key"  onclick="showPassword()"><img src="../chaves.png" alt="" srcset="" id="chave"></button>
+      </div>
+      <button onclick="login()">Entrar</button>
+      
+
+
+
+          <dialog id="dialog">
+            <h2>Sua senha ou usuario esta errada animal.</h2>
+            <br>
+            <br>
+            <h4>Tenta dnv anta, agr certo</h4>
+            <br>
+            <button>Fechar</button>
+          </dialog>
+
+
+
+      </div>
+      <p><a href="../Showroom/showroom.html">Visitar showroom</a></p>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

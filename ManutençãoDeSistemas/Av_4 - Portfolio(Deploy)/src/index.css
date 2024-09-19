@@ -1,0 +1,15 @@
+:root{
+  --white: #ffffff;
+  --purple: #800080;
+  --fontREM: "REM", sans-serif;
+  --fontRoboto: "Roboto", sans-serif;
+  --Neon: 0 0 15px #9400D3, 0 0 40px #9400D3, 0 0 50px #9400D3;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}

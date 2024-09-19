@@ -1,0 +1,51 @@
+  [
+    {
+      "id": 1,
+      "descricao": "Creme roxo",
+      "imagem": "../Dados/2816.jpg",
+      "preco": 10.0,
+      "quantidade": 18,
+      "status": true
+    },
+    {
+      "id": 2,
+      "descricao":"Creme rosa pequeno",
+      "imagem": "../Dados/creme.jpg",
+      "preco": 20.0,      
+      "quantidade": 15,
+      "status": true
+    },
+    {
+      "id": 3,
+      "descricao": "Creme marrom",
+      "imagem": "../Dados/Creminho.jpg",
+      "preco": 40.0,
+      "quantidade": 12,
+      "status": false
+    },
+    {
+      "id": 4,
+      "descricao": "creme laranja",
+      "imagem": "../Dados/NATBRA-23081_2.jpg",
+      "preco": 25.0,
+      "quantidade": 19,
+      "status": true
+    },
+    {
+      "id": 5,
+      "descricao": "creme rosa",
+      "imagem": "../Dados/NATBRA-88103_2.jpg",
+      "preco": 45.0,
+      "quantidade": 10,
+      "status": true
+    },
+    {
+      "id": 6,
+      "descricao": "creme bege",
+      "imagem": "../Dados/NATBRA-2820_2.jpg",
+      "preco": 31.0,
+      "quantidade": 17,
+      "status": true
+    }
+  ]
+  

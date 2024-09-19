@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Showroom</title>
+
+    <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        width: 100vw;
+        height: auto;
+        overflow-x: hidden;
+        padding: 20px;
+        font-family: "Roboto", sans-serif;
+      }
+      .wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 5%;
+      }
+      @media (width <= 900px) {
+        .center {
+          justify-content: center;
+          gap: 2vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>showroom</h1>
+    <div class="wrap">
+      <div id="produtos-container" class="row center"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

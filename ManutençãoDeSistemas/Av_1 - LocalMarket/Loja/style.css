@@ -1,0 +1,147 @@
+.card-img-top
+{
+    width: 200px;
+    height: 230px;
+
+}
+
+.card
+{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 1px;
+    box-shadow: 5px black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    background: linear-gradient(348deg, rgba(196,196,221,1) 0%, rgba(242,242,242,1) 35%, rgba(248,254,255,1) 100%);
+  }
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  @media (width <= 900px) {
+    .center {
+      justify-content: center;
+      gap: 2vh;
+    }
+  }
+
+  .row
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .center
+  {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .between
+  {
+    justify-content: space-between;
+  }
+
+  .nav
+  {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(243, 239, 234);
+    align-items: center;
+  }
+
+.name-market
+{
+    margin: 10px;
+}
+
+  .carrinho
+  {
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(12, 182, 40);
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+  }
+
+
+  a{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:80px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  a:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  a:before,a:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  a:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  a:hover:before,a:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .w-100
+  {
+    width: 100%;
+  }
+
+  .d-flex
+  {
+    display: flex;
+  }
+
+
+  .gradient {
+    background: linear-gradient(90deg, rgba(252,18,18,1) 0%, rgba(124,40,166,1) 25%, rgba(17,70,182,1) 46%, rgba(14,180,175,1) 68%, rgba(17,164,11,1) 80%, rgba(36,219,29,1) 93%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+  }
+
+  .h-100{
+    height: 100%;
+}
